@@ -119,15 +119,17 @@ ul {
   transition: all 0.1s linear;
 }
 
-.nextButton:hover {
+.nextButton:hover,
+.startBtn:hover,
+.retryButton:hover {
   scale: 1.1;
   background-color: rgb(65, 65, 65);
   border: 2px solid rgb(92, 92, 92);
-  transition: all 0.1s linear;
+  transition: all 0.05s linear;
 }
 
 .scoreMessage {
-  height: 510px;
+  height: 545px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -143,4 +145,81 @@ ul {
 .finalScore {
   margin-top: 40px;
   font-size: 40px;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5px;
+  padding: 0 10px 0 10px;
+  border-radius: 30%;
+  height: 50px;
+  background-color: rgb(43, 43, 43);
+  border: 2px solid rgb(65, 65, 65);
+  color: white;
+}
+
+.timeAndNext {
+  display: flex;
+  justify-content: space-between;
+}
+.timer2 {
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.timesUp {
+  height: 545px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+}
+
+.retryButton {
+  font-size: 15px;
+  border-radius: 10px;
+  height: 55px;
+  background-color: rgb(43, 43, 43);
+  border: 2px solid rgb(65, 65, 65);
+  color: white;
+  margin-top: 20px;
+}
+
+.welcomeScreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 545px;
+  color: white;
+}
+
+.welcomeText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clickText {
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.startBtn {
+  font-size: 15px;
+  border-radius: 10px;
+  height: 55px;
+  background-color: rgb(43, 43, 43);
+  border: 2px solid rgb(65, 65, 65);
+  color: white;
+  margin-top: 10px;
+}
+
+.firstLogo {
+  display: flex;
+  width: 100px;
 }
